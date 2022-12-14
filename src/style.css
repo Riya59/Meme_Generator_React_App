@@ -11,7 +11,7 @@ main{
     padding: 36px;
 }
 
-.header{
+#header{
     display: flex;
     align-items: center;
     height: 65px;
@@ -90,7 +90,7 @@ main{
   padding: 25px 10px;
   font-family: impact, sans-serif;
   font-size: 2em;
-  text-transform: uppercase;
+  /* text-transform: uppercase; */
   color: white;
   letter-spacing: 1px;
   text-shadow:
@@ -111,3 +111,4 @@ main{
 .top{
     top: 0;
 }
+

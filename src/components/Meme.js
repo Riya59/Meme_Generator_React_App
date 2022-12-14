@@ -2,7 +2,7 @@ import React from 'react'
 import '../style.css'
 
 
-export default function Meme() {
+export default function Meme(props) {
   // const[memeImage, setMemeImage] = React.useState("http://i.imgflip.com/1bij.jpg")
 
   const [meme, setMeme] = React.useState({
@@ -42,7 +42,7 @@ export default function Meme() {
  }
 
   return (
-    <main>
+    <main className={props.darkMode ? "dark" : ""}>
 
       <div className='form'>
         <input
